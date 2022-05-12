@@ -3,16 +3,16 @@ A simple user management and authentication system
 * Create, Update, Delete, List web service endpoints for a User object.
 * User object should contain a name, email address, password and the date of their last login.
 * Provide a login endpoint that validates the email address and password provided by the user
-## Tech-stack
+### Tech-stack
 * OpenJDK 1.11
 * Maven
 * Amazon Web Services - DynamoDb
-## Build the Application
+### Build the Application
 To build the application navigate to the root directory and run
 ```shell
 mvn clean install
 ```
-## Run the Application
+### Run the Application
 To start the application navigate to the root directory and run
 ```shell
 mvn spring-boot:run
@@ -39,5 +39,5 @@ Navigate to the browser and open http://localhost:8082/api/health for the API he
 ```shell
 Health is good
 ```
-
-
+### Endpoints
+Below are the endpoints of the api 
