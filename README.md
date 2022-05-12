@@ -45,5 +45,12 @@ Below are the endpoints of the api
 | Endpoint(s)  |Method       |  Request Body/Path variables      |   OnSuccess   | OnFailure   | Description   | 
 |--------------|-------------|----------------------------- | -------------   |------------|------------|
 |  /api/health  |GET  | None  | Health is good   |N/A   | Health of API
-| /api/v1/user/auth/login  |POST| User object  | User Login Successful   |"Unauthorized!: User Not Found"   | Allows user to login   |
+| /api/v1/user/auth/login  |POST| User object  | User Login Successful   | Unauthorized!: User Not Found  | Allows user to login   |
+|  /api/v1/user/createUser|POST|User object  | User created Successfully   | User Creation Failure : User does not Exist  | Creates new User   |
+|  /api/v1/user/updateUser|PUT|User object  | User updated Successfully   | User Update Failure : User does not Exist  | Updates existing User   |
+|  /api/v1/user/deleteUser|DELETE|emailId  | User deleted Successfully   | User deletion Failure : User does not Exist  | Delted existing User   |
+|  /api/v1/user/Users|GET|emailId  | {List of Users}  | None  | List all users   |
+|  /api/user/logout|GET|User Object  |User Logged out Successfully.  | User does not exist  | Allows user to logout |
+
+
 
