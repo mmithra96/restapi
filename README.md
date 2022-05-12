@@ -49,7 +49,7 @@ Below are the endpoints of the api and sample onSucess and OnFailure messages
 |  /api/v1/user/createUser|POST|User object  | User created Successfully   | User Creation Failure : User does not Exist  | Creates new User   |
 |  /api/v1/user/updateUser|PUT|User object  | User updated Successfully   | User Update Failure : User does not Exist  | Updates existing User   |
 |  /api/v1/user/deleteUser|DELETE|emailId  | User deleted Successfully   | User deletion Failure : User does not Exist  | Deletes existing User   |
-|  /api/v1/user/Users|GET|None  | {List of Users}  | None  | List all users   |
+|  /api/v1/user/Users|GET|None  | {List of Users}  | None  | Lists all users   |
 |  /api/user/logout|GET|User Object  |User Logged out Successfully.  | User does not exist  | Allows user to logout |
 
 
