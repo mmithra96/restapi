@@ -1,8 +1,16 @@
 # restapi
-
+A simple user management and authentication system
+* Create, Update, Delete, List web service endpoints for a User object.
+* User object should contain a name, email address, password and the date of their last login.
+* Provide a login endpoint that validates the email address and password provided by the user
+# Tech-stack
+* OpenJDK 1.11
+* Maven
+* Amazon Web Services - DynamoDb
 ## Build the Application
 To build the application navigate to the root directory and run
 ```shell
+
 mvn clean install
 ```
 
