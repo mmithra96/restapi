@@ -25,7 +25,7 @@ public class AppConfig {
 		return DynamoDbClient.builder().endpointOverride(URI.create("http://dynamodb.us-east-1.amazonaws.com"))
 				.region(Region.US_EAST_1)
 				.credentialsProvider(StaticCredentialsProvider.create(
-						AwsBasicCredentials.create("AKIA4M2H6PUAFLATHD5B", "+sFKG7SErMk9CU/dq7XvfV190QmcJoqBAnTsmDlO")))
+						AwsBasicCredentials.create("{access-secret-id}", "{access-secret-key}")))
 				.build();
 
 	}
