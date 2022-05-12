@@ -41,3 +41,9 @@ Health is good
 ```
 ### Endpoints
 Below are the endpoints of the api 
+
+| Endpoint(s)  |Method       |  Request Body/Path variables      |   OnSuccess   | OnFailure   | Description   | 
+|--------------|-------------|----------------------------- | -------------   |------------|------------|
+|  /api/health  |GET  | None  | Health is good   |N/A   | Health of API
+| /api/v1/user/auth/login  |POST| User object  | User Login Successful   |"Unauthorized!: User Not Found"   | Allows user to login   |
+
