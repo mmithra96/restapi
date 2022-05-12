@@ -40,7 +40,7 @@ Navigate to the browser and open http://localhost:8082/api/health for the API he
 Health is good
 ```
 ### Endpoints
-Below are the endpoints of the api 
+Below are the endpoints of the api and sample onSucess and OnFailure messages
 
 | Endpoint(s)  |Method       |  Request Body/Path variables      |   OnSuccess   | OnFailure   | Description   | 
 |--------------|-------------|----------------------------- | -------------   |------------|------------|
