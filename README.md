@@ -3,20 +3,17 @@ A simple user management and authentication system
 * Create, Update, Delete, List web service endpoints for a User object.
 * User object should contain a name, email address, password and the date of their last login.
 * Provide a login endpoint that validates the email address and password provided by the user
-# Tech-stack
+## Tech-stack
 * OpenJDK 1.11
 * Maven
 * Amazon Web Services - DynamoDb
 ## Build the Application
 To build the application navigate to the root directory and run
 ```shell
-
 mvn clean install
 ```
-
-## Run  
+## Run the Application
 To start the application navigate to the root directory and run
-
 ```shell
 mvn spring-boot:run
 ```
@@ -38,4 +35,9 @@ Once the Springboot Application Starts
 21:37:06.428 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
 21:37:07.822 [main] INFO  com.mithra.demo.RestapiApplication - Started RestapiApplication in 6.849 seconds (JVM running for 9.238)
 ```
+Navigate to the browser and open http://localhost:8082/api/health for the API health Check. This returns
+```shell
+Health is good
+```
+
 
